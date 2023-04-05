@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 22em;
+}
+
+.v-align {
+    vertical-align: super;
+    font-weight: lighter;
+}
+
+.container .price {
+    font-size: 2em;
+}
+.container > div > h2 {
+    color: #4abebd;
+}
+.container {
+    background: aliceblue;
+}
+
+.container > div:nth-child(2) > .monthly-sub {
+    background: #2bb3b1;
+    padding: 1em;
+    flex: .5;
+}
+.container > div:nth-child(2) > .why-us {
+    background: #4abebd;
+    padding: 1em;
+    flex: .5;
+}
+.container > div:nth-child(2) {
+    display: flex;
+    flex: 1;
+    color: azure;
+}
+.container > div:first-child {
+    padding: 1em;
+}
